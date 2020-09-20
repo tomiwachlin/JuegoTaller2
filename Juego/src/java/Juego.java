@@ -1,4 +1,5 @@
-package Principal;
+package java;
+
 import java.util.ArrayList;
 
 public class Juego{

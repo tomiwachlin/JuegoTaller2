@@ -1,6 +1,6 @@
-package Entidades;
+package java;
 
-public class Inky {
+public class Inky extends EntidadesVivas{
 
 	public Inky() {
 		// TODO Auto-generated constructor stub

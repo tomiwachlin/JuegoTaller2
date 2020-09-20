@@ -1,10 +1,8 @@
-package Entidades;
-import Util.*;
+package java;
 
 public abstract class EntidadesVivas{
 	private Posicion posicion;
 	private String color;
-	private Movimiento movimiento;
 	private String personaje;
 	private String estado;
 	

@@ -1,10 +1,8 @@
-package Principal;
-import Util.Fecha;
+package java;
 
 public class RegistroJugadores {
 	private String nombre;
 	private Integer puntuacion;
-	private Fecha fechaDeRegistro;
 
 	public RegistroJugadores() {
 		// TODO Auto-generated constructor stub
@@ -26,12 +24,6 @@ public class RegistroJugadores {
 		this.puntuacion = puntuacion;
 	}
 
-	public Fecha getFechaDeRegistro() {
-		return fechaDeRegistro;
-	}
 
-	public void setFechaDeRegistro(Fecha fechaDeRegistro) {
-		this.fechaDeRegistro = fechaDeRegistro;
-	}
 
 }

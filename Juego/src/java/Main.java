@@ -1,5 +1,6 @@
-package Principal;
+package java;
 import Util.*;
+
 import java.util.Scanner;
 
 public class Main {

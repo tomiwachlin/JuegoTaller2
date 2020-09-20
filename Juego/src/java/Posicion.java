@@ -1,4 +1,4 @@
-package Util;
+package java;
 
 public class Posicion {
 	private Integer posX;
