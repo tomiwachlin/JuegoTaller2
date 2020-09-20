@@ -13,7 +13,7 @@ public class Main {
 		System.out.println("PAC-MAN");
 		mover = new Movimiento();
 		addKeyListener(mover);
-		System.out.println("JUGAR");
+		System.out.println("chupala");
 		
 	}
 
