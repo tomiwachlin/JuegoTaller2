@@ -6,6 +6,6 @@ public class Blinky extends EntidadesVivas{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public movimiento
+
 
 }

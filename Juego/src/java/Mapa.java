@@ -2,6 +2,10 @@ package java;
 
 public class Mapa {
 	
+	
+	/**
+	 * Matriz que corresponde al campo de juego
+	 */
 	private EntidadesInmoviles[][] matriz;
 	
 	/**
@@ -12,7 +16,29 @@ public class Mapa {
 	 * Cantidad de pelotitas que va comiendo Pacman
 	 */
 	private int cantComidas;
-	public Mapa(int posX,int popY) {
-		matriz = new EntidadesInmobiles[posX][posY];
+	
+	/**
+	 * Constructor de la clase Mapa
+	 * @param dimX
+	 * @param dimY
+	 */
+	public Mapa(int dimX,int dimY) {
+		matriz = new EntidadesInmoviles[dimX][dimY];
+	}
+
+	public int getCantPelotitas() {
+		return cantPelotitas;
+	}
+
+	public void setCantPelotitas(int cantPelotitas) {
+		this.cantPelotitas = cantPelotitas;
+	}
+
+	public int getCantComidas() {
+		return cantComidas;
+	}
+
+	public void setCantComidas(int cantComidas) {
+		this.cantComidas = cantComidas;
 	}
 }
