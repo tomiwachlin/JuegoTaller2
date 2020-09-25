@@ -3,7 +3,6 @@ package java;
 public class Clyde extends EntidadesVivas{
 
 	public Clyde() {
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -13,5 +12,12 @@ public class Clyde extends EntidadesVivas{
 	public boolean movimiento () {
 		boolean toquePacMan=false;
 		return toquePacMan;
+	}
+
+	/**
+	 * El método mover implementa el movimiento de Clyde
+	 */
+	public boolean mover() {
+		return false;
 	}
 }

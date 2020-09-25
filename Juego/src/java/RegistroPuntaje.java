@@ -1,11 +1,12 @@
 package java;
+import java.util.ArrayList;
 
-public class RegistroJugadores {
+public class RegistroPuntaje {
+	
 	private String nombre;
 	private Integer puntuacion;
 
-	public RegistroJugadores() {
-		// TODO Auto-generated constructor stub
+	public RegistroPuntaje() {
 	}
 
 	public String getNombre() {
@@ -23,6 +24,8 @@ public class RegistroJugadores {
 	public void setPuntuacion(Integer puntuacion) {
 		this.puntuacion = puntuacion;
 	}
+
+
 
 
 

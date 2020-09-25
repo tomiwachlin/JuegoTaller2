@@ -64,5 +64,6 @@ public abstract class EntidadesVivas{
 		this.estado = estado;
 	}
 	
+	public abstract boolean mover ();
 	
 }

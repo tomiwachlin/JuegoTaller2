@@ -7,11 +7,12 @@ public class Pinky extends EntidadesVivas{
 	}
 
 	/**
-	 * Este método se encarga del movimiento de Blinky e informa si ha tocado a PacMan
+	 * Este método se encarga del movimiento de Pinky e informa si ha tocado a PacMan
 	 * @return devuelve un booleano que simboliza si tocó o no a PacMan
 	 */
-	public boolean movimiento () {
+	public boolean mover() {
 		boolean toquePacMan=false;
 		return toquePacMan;
 	}
 }
+

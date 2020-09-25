@@ -10,13 +10,12 @@ public class PacMan extends EntidadesVivas{
 	
 	
 	/**
-	 * 
-	 * @param entidad recibe que tipo de entidad hay en la posicion donde quiere moverse
-	 * @param direccion recibe la direccion a la cual debe moverse
-	 * @return devuelve si toco a un fantasma
+	 * Este método se encarga del movimiento de Pac-Man e informa si ha tocado a un fantasma
+	 * @return devuelve un booleano que simboliza si tocó o no a PacMan
 	 */
-	public boolean mover (EntidadesInmoviles entidad, char direccion) {
-		boolean toqueFantasma = false;
+	public boolean mover() {
+		boolean toqueFantasma=false;
 		return toqueFantasma;
 	}
 }
+

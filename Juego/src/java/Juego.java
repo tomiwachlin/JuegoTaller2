@@ -1,20 +1,9 @@
 package java;
-
 import java.util.ArrayList;
 
 public class Juego{
 	
-	/**
-	 * Lista con el registro de puntajes de jugadores
-	 */
-	private ArrayList<RegistroJugadores> listaDeRegistro= new ArrayList<RegistroJugadores>();
-	
-	/**
-	 * 
-	 */
-	private ArrayList<RegistroJugadores> mejoresPuntajes= new ArrayList<RegistroJugadores>();
-	
-	
+
 	/**
 	 * Jugador de la partida
 	 */
@@ -31,12 +20,41 @@ public class Juego{
 	private Mapa mapa;
 	
 	
+	// Sección de métodos
+	
 	/**
 	 * Constructor de la clase
 	 */
 	public Juego() {
-		// TODO Auto-generated constructor stub
 	}
+	
+
+
+	public Jugador getJugador() {
+		return jugador;
+	}
+
+	public void setJugador(Jugador jugador) {
+		this.jugador = jugador;
+	}
+
+	public EntidadesVivas[] getVectorEntidadesVivas() {
+		return vectorEntidadesVivas;
+	}
+
+	public void setVectorEntidadesVivas(EntidadesVivas[] vectorEntidadesVivas) {
+		this.vectorEntidadesVivas = vectorEntidadesVivas;
+	}
+
+	public Mapa getMapa() {
+		return mapa;
+	}
+
+	public void setMapa(Mapa mapa) {
+		this.mapa = mapa;
+	}
+	
+	
 	
 	/**
 	 * Metodo con el loop del juego
@@ -44,5 +62,6 @@ public class Juego{
 	public void jugar () {
 		
 	}
+
 	
 }
