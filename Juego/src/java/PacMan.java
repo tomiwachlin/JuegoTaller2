@@ -1,5 +1,10 @@
 package java;
 
+/**
+ * La clase PacMan extiende de EntidadesVivas
+ * @author Tomas
+ *
+ */
 public class PacMan extends EntidadesVivas{
 	
 	/**
