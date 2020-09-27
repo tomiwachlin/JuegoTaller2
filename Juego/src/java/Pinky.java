@@ -1,7 +1,12 @@
 package java;
-
+/**
+ * Clase del fantasma Blinky que hereda metodos y atributos de la clase padre EntidadesVivas
+ */
 public class Pinky extends EntidadesVivas{
-
+	
+	/**
+	 * Constructor
+	 */
 	public Pinky() {
 		// TODO Auto-generated constructor stub
 	}

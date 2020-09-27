@@ -1,12 +1,20 @@
 package java;
-
+/**
+ * Clase jugador la cual tiene la inforamcion del usuario durante la partida
+ * Atributos:
+ * String nombre: nombre del jugador
+ * int puntaje: puntaje del jugador
+ * int vidas: cantidad de vidas del jugador
+ */
 public class Jugador {
 
 	private String nombre;
 	private int puntaje;
 	private int vidas;
 	
-	
+	/**
+	 * Constructor
+	 */
 	public Jugador () {
 		
 	}
