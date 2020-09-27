@@ -1,5 +1,12 @@
 package java;
 
+/**
+ * La clase Clyde extiende de EntidadesVivas
+ * @author Tomas
+ *
+ * 
+ *
+ */
 public class Clyde extends EntidadesVivas{
 
 	public Clyde() {

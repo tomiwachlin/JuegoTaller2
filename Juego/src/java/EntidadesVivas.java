@@ -1,5 +1,12 @@
 package java;
 
+
+/**
+ * Clase Entidades vivas es la super clase de los objetos que se mueven
+ * Esta clase tiene los atributos: Posicion, String color, String personaje, String estado.
+ * @author Tomas
+ *
+ */
 public abstract class EntidadesVivas{
 	private Posicion posicion;
 	private String color;
@@ -64,6 +71,10 @@ public abstract class EntidadesVivas{
 		this.estado = estado;
 	}
 	
+	/**
+	 * Se encarga del movimiento de la clase lo implementa la sublclase
+	 * @return
+	 */
 	public abstract boolean mover ();
 	
 }
