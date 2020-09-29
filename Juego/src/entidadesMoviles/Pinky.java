@@ -1,4 +1,4 @@
-package java;
+package entidadesMoviles;
 /**
  * Clase del fantasma Blinky que hereda metodos y atributos de la clase padre EntidadesVivas
  */

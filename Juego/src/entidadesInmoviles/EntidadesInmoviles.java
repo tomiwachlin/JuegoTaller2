@@ -1,5 +1,8 @@
-package java;
-	/**
+package entidadesInmoviles;
+
+import java.Posicion;
+
+/**
 	 * Clase padre de todos los objetos que son inmoviles
 	 * Atributos:
 	 * String nombre: nombre de la entidad

@@ -1,4 +1,7 @@
 package java;
+
+import entidadesInmoviles.EntidadesInmoviles;
+
 /**
  * Clase que se encarga de crear el mapa y darle posicion a las entidades inmoviles del juego
  * Tiene como atributos:

@@ -1,4 +1,4 @@
-package java;
+package entidadesMoviles;
 /**
  * Clase del fantasma Inky que hereda metodos y atributos de la clase padre EntidadesVivas
  */

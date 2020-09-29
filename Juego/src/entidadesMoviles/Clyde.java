@@ -1,4 +1,4 @@
-package java;
+package entidadesMoviles;
 
 /**
  * La clase Clyde extiende de EntidadesVivas

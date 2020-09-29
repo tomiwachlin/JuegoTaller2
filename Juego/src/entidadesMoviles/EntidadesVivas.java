@@ -1,5 +1,6 @@
-package java;
+package entidadesMoviles;
 
+import java.Posicion;
 
 /**
  * Darles comportamiento a los personajes

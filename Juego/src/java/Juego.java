@@ -1,6 +1,9 @@
 package java;
 import java.util.ArrayList;
 
+import entidadesMoviles.EntidadesVivas;
+import entidadesMoviles.Fantasmas;
+
 
 
 /**
@@ -13,13 +16,16 @@ import java.util.ArrayList;
  */
 public class Juego{
 
-
-	private EntidadesVivas[] vectorEntidadesVivas; //Vector que tiene a las entidades vivas (PacMan - Fantasmas)
-	private Mapa mapa; //Mapa de juego
+	
 	private ArrayList<RegistroPuntaje> historialPuntajes;
 	private ArrayList<RegistroPuntaje> mejoresPuntajes;
-	private int vidas;
 	private int puntaje;
+	private EntidadesVivas[] vectorEntidadesVivas; //Vector que tiene a los Fantasmas
+	private Mapa mapa; //Mapa de juego
+	private int cantPelotitas; //Cantidad total de pelotitas en el mapa
+	private int cantComidas; //Cantidad de pelotitas comidas
+	private int vidas;
+	
 	
 /////////// Sección de métodos/////////////////////
 	
@@ -85,13 +91,6 @@ public class Juego{
 	 */
 	public Fantasmas quienColisiono() {
 		return null;
-		
-	}
-	
-	/**
-	 * Metodo con el loop del juego
-	 */
-	public void jugar () {
 	}
 	/**
 	 * Método que se encarga de eliminar el
@@ -108,6 +107,17 @@ public class Juego{
 	 * Método para actualizar el historial de puntajes
 	 */
 	public void actualizarRanking() {
+	}
+	/**
+	 * Finaliza el juego según corresponda teniendo en cuenta si ganas o perdes
+	 */
+	public void terminarJuego () {
+		
+	}
+	/**
+	 * Metodo con el loop del juego
+	 */
+	public void jugar () {
 	}
 
 	

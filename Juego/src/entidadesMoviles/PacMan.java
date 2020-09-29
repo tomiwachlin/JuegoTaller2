@@ -1,4 +1,4 @@
-package java;
+package entidadesMoviles;
 
 /**
  * La clase PacMan extiende de EntidadesVivas
