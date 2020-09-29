@@ -9,6 +9,9 @@ public abstract class EntidadesInmoviles {
 	private  String nombre;
 	private Posicion posicion;
 	
+	
+////////// SECCION DE METODOS ///////////////////	
+	
 	/**
 	 * Constructor
 	 */
@@ -23,7 +26,6 @@ public abstract class EntidadesInmoviles {
 	public String getNombre() {
 		return nombre;
 	}
-	
 	/**
 	 * Metodo setNombre
 	 * @param nombre
@@ -32,7 +34,6 @@ public abstract class EntidadesInmoviles {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
 	/**
 	 * Metodo getPosicion
 	 * @return posicion
@@ -41,7 +42,6 @@ public abstract class EntidadesInmoviles {
 	public Posicion getPosicion() {
 		return posicion;
 	}
-	
 	/**
 	 * Metodo setPosicion
 	 * @param posicion
@@ -50,4 +50,7 @@ public abstract class EntidadesInmoviles {
 	public void setPosicion(Posicion posicion) {
 		this.posicion = posicion;
 	}
+	
+	
+	public abstract void colisionConPacMan();
 }

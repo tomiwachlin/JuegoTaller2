@@ -2,23 +2,22 @@ package java;
 
 
 /**
- * Clase Entidades vivas es la super clase de los objetos que se mueven
- * Esta clase tiene los atributos: Posicion, String color, String personaje, String estado.
- * @author Tomas
- *
+ * Darles comportamiento a los personajes
+ * @author Tomás Wachlin
+ * @author Juan Cruz Bosisio
+ * 
  */
 public abstract class EntidadesVivas{
 	private Posicion posicion;
 	private String color;
-	private String personaje;
+	private String nombre;
 	private String estado;
 	
 	/**
-	 * Constructor de la clase
+	 * Constructor nulo de Personaje
 	 */
 	public EntidadesVivas() {
 	}
-
 	/**
 	 * Metodo getColor
 	 * @return devuelve el color de la entidad
@@ -26,7 +25,6 @@ public abstract class EntidadesVivas{
 	public String getColor() {
 		return color;
 	}
-
 	/**
 	 * Metodo setColor
 	 * Se encarga de asiganar un color a la entidad
@@ -35,15 +33,13 @@ public abstract class EntidadesVivas{
 	public void setColor(String color) {
 		this.color = color;
 	}
-
 	/**
 	 * Metodo getPersonaje
 	 * @return devuelve el nombre del personaje
 	 */
 	public String getPersonaje() {
-		return personaje;
+		return nombre;
 	}
-
 	/**
 	 * Metodo setPersonaje
 	 * Asigna un nombre de personaje a la entidad
@@ -51,7 +47,7 @@ public abstract class EntidadesVivas{
 	 * 
 	 */
 	public void setPersonaje(String personaje) {
-		this.personaje = personaje;
+		this.nombre = personaje;
 	}
 
 	/**

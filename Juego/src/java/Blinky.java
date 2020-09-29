@@ -1,6 +1,12 @@
 package java;
+
+
 /**
- * Clase del fantasma Blinky que hereda metodos y atributos de la clase padre EntidadesVivas
+ * Clase para crear instancias del fantasma Blinky y darles comportamiento
+ * 
+ * @author Tomás Wachlin
+ * @author Juan Cruz Bosisio
+ * 
  */
 public class Blinky extends EntidadesVivas{
 
@@ -10,7 +16,6 @@ public class Blinky extends EntidadesVivas{
 	public Blinky() {
 		// TODO Auto-generated constructor stub
 	}
-	
 	/**
 	 * Este método se encarga del movimiento de Blinky e informa si ha tocado a PacMan
 	 * @return devuelve un booleano que simboliza si tocó o no a PacMan

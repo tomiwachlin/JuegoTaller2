@@ -1,6 +1,8 @@
 package java;
 import java.util.ArrayList;
 
+
+
 /**
  * La clase Juego es la que se encarga del loop del juego y de crear
  * los objetos que son parte del mismo
@@ -10,47 +12,21 @@ import java.util.ArrayList;
 
  */
 public class Juego{
-	
 
-	/**
-	 * Jugador de la partida
-	 */
-	private Jugador jugador;
+
+	private EntidadesVivas[] vectorEntidadesVivas; //Vector que tiene a las entidades vivas (PacMan - Fantasmas)
+	private Mapa mapa; //Mapa de juego
+	private ArrayList<RegistroPuntaje> historialPuntajes;
+	private ArrayList<RegistroPuntaje> mejoresPuntajes;
+	private int vidas;
+	private int puntaje;
+	
+/////////// Sección de métodos/////////////////////
 	
 	/**
-	 * Vector que tiene a las entidades vivas (PacMan - Fantasmas)
-	 */
-	private EntidadesVivas[] vectorEntidadesVivas;
-	
-	/**
-	 * 
-	 */
-	private Mapa mapa;
-	
-	
-	// Sección de métodos
-	
-	/**
-	 * Constructor de la clase
+	 * Constructor nulo de la clase
 	 */
 	public Juego() {
-	}
-	
-
-	/**
-	 * Metodo getJugador
-	 * @return Jugador
-	 */
-	public Jugador getJugador() {
-		return jugador;
-	}
-	/**
-	 * setJugador
-	 * @param jugador
-	 * 
-	 */
-	public void setJugador(Jugador jugador) {
-		this.jugador = jugador;
 	}
 	/**
 	 * getVectorEntidadesVivas
@@ -80,14 +56,58 @@ public class Juego{
 	public void setMapa(Mapa mapa) {
 		this.mapa = mapa;
 	}
+	/**
+	 * Modifica la cantidad de vidas, restando una al total
+	 */
+	public void quitarVida() {
+		this.vidas = this.vidas - 1;
+	}
+	/**
+	 * Modifica el puntaje actual
+	 * 
+	 * @param unScore
+	 *            int . Le paso un int para modificar el puntaje acumulado
+	 */
+	public void setPuntaje(int unScore) {
+		this.puntaje = unScore;
+	}
 	
-	
+	/**
+	 * 
+	 * @return Si PacMan se chocó con un fantasma devuelve true
+	 */
+	public boolean huboColision () {
+		return false;
+	}
+	/**
+	 * 
+	 * @return Devuelve cual de los fantasmas fue el que se chocó con PacMan
+	 */
+	public Fantasmas quienColisiono() {
+		return null;
+		
+	}
 	
 	/**
 	 * Metodo con el loop del juego
 	 */
 	public void jugar () {
-		
+	}
+	/**
+	 * Método que se encarga de eliminar el
+	 * comestible que haya comido PacMan
+	 */
+	public void restarComestible () {
+	}
+	/**
+	 * Mata fantasma comido
+	 */
+	public void matarFantasma() {
+	}
+	/**
+	 * Método para actualizar el historial de puntajes
+	 */
+	public void actualizarRanking() {
 	}
 
 	
