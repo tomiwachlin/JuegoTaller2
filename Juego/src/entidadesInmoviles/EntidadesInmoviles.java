@@ -3,11 +3,11 @@ package entidadesInmoviles;
 import java.Posicion;
 
 /**
-	 * Clase padre de todos los objetos que son inmoviles
-	 * Atributos:
-	 * String nombre: nombre de la entidad
-	 * Posicion posicion: posicion actual de la entidad
-	 */
+ * Da un marco a todos aquellos elementos que no cambian su posicion en todo el Juego
+ * @author Tomás Wachlin
+ * @author Juan Cruz Bosisio
+ * 
+ */
 public abstract class EntidadesInmoviles {
 	private  String nombre;
 	private Posicion posicion;

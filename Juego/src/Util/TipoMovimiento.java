@@ -7,5 +7,5 @@ package Util;
  * @author Juan Cruz Bosisio
  */
 public enum TipoMovimiento {
-
+	persecucion, dispersion, volviendoACasa, dentroDeCasa, asustado
 }
